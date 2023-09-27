@@ -72,7 +72,7 @@ export default function TempApp() {
                     )}
 
                 <figure>
-                    <img src={cloud} className="cloud-img"/>
+                    <img src={cloud} alt="cloud" className="cloud-img"/>
                 </figure>
                 </section>
 
