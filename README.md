@@ -11,7 +11,7 @@
 <li>It gives the realtime Search</li>
 
 <h2>How to download to your Local Environment</h2>
-<li>git clone </li>
+<li>git clone https://github.com/prajwal208/Mern-Weather.git</li>
 <li>cd weather npm install</li>
 <li>cd server npm install</li>
 <li>include the .env file which includes mongodbKey and WeatherAPI key</li>
