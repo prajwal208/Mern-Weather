@@ -9,6 +9,7 @@
 <li>The API is called from the backend and fetched in the frontend UI</li>
 <li>If the user trys to search through the empty it will give an error message to the user</li>
 <li>It gives the realtime Search</li>
+<li>If the data is not found It results in data not found</li>
 
 <h2>How to download to your Local Environment</h2>
 <li>git clone https://github.com/prajwal208/Mern-Weather.git</li>
