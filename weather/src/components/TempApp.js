@@ -10,7 +10,7 @@ export default function TempApp() {
     const fetchWeatherData = async (location) => {
         try {
             const response = await axios.get(
-                `http://localhost:5000/api/weather/${location}`
+                `https://weather-hb04.onrender.com/api/weather/${location}`
             );
             setWeatherData(response.data);
         } catch (error) {
