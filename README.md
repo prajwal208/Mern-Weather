@@ -5,7 +5,7 @@
 
 
 <h2>How does it Work</h2>
-<li>The user has to enter the city name in the search</li>
+<li>The user has to enter the city name in the search bar</li>
 <li>The API is called from the backend and fetched in the frontend UI</li>
 <li>If the user trys to search through the empty it will give an error message to the user</li>
 <li>It gives the realtime Search</li>
