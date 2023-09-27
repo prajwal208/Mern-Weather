@@ -20,10 +20,10 @@ export default function TempApp() {
 
     useEffect(() => {
         fetchWeatherData(location);
-    }, []);
+    }, [location]);
 
     const handleSearch = () => {
-        if(location==""){
+        if(location===""){
             alert('Enter the city')
         }
         fetchWeatherData(location);
@@ -72,7 +72,7 @@ export default function TempApp() {
                     )}
 
                 <figure>
-                    <img src={cloud} alt="cloud-image" className="cloud-img"/>
+                    <img src={cloud} className="cloud-img"/>
                 </figure>
                 </section>
 
